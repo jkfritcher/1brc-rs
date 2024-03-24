@@ -1,0 +1,10 @@
+[package]
+name = "rs-1brc"
+description = "1 Billion Row Challenge in Rust"
+authors = [ "Jason Fritcher <jkf@wolfnet.org>" ]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.153"
