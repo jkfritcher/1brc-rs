@@ -9,3 +9,9 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.81"
 libc = "0.2.153"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+debug = true
